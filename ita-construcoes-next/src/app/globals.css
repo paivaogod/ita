@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #ffffff;
+  --fg: #0b0b0b;
+}
+
+html, body {
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.container {
+  @apply mx-auto max-w-6xl px-4;
+}
